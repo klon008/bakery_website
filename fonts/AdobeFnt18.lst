@@ -1,0 +1,1153 @@
+%!Adobe-FontList 1.18
+%Locale:0x419
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\wamp64\www\bakery_website\Font\ProxumaNovaRegular\proxima_nova_regular.eot
+FileModTime:1499672998
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\wamp64\www\bakery_website\Font\ProxumaNovaRegular\proxima_nova_regular.svg
+FileModTime:1499672998
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ProximaNova-Regular
+FamilyName:Proxima Nova
+StyleName:Regular
+FullName:Proxima Nova Rg Regular
+MenuName:Proxima Nova Rg
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\ProxumaNovaRegular\proxima_nova_regular.ttf
+DataFormat:sfntData
+hasSVG:no
+FileLength:53296
+FileModTime:1499672998
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Proxima Nova Rg
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\wamp64\www\bakery_website\Font\ProxumaNovaRegular\proxima_nova_regular.woff
+FileModTime:1499672998
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\wamp64\www\bakery_website\Font\ProxumaNovaRegular\proxima_nova_regular.woff2
+FileModTime:1499672998
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\.DS_Store
+FileModTime:1499672107
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\banner-proximanova580x290.jpg
+FileModTime:1499672107
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-BlackIt
+FamilyName:Proxima Nova
+StyleName:Black Italic
+FullName:Proxima Nova Black Italic
+MenuName:Proxima Nova Bl
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Black Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:95496
+FileModTime:1499672107
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Black It
+NameArray:0,Mac,4,Proxima Nova Black Italic
+NameArray:0,Win,1,Proxima Nova Bl
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-Black
+FamilyName:Proxima Nova
+StyleName:Black
+FullName:Proxima Nova Black
+MenuName:Proxima Nova Bl
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:93168
+FileModTime:1499672107
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Proxima Nova Black
+NameArray:0,Win,1,Proxima Nova Bl
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-BoldIt
+FamilyName:Proxima Nova
+StyleName:Bold Italic
+FullName:Proxima Nova Bold Italic
+MenuName:Proxima Nova Rg
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Bold Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:101200
+FileModTime:1499672107
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Bold It
+NameArray:0,Mac,4,Proxima Nova Bold Italic
+NameArray:0,Win,1,Proxima Nova Rg
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-Bold
+FamilyName:Proxima Nova
+StyleName:Bold
+FullName:Proxima Nova Bold
+MenuName:Proxima Nova Rg
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:96640
+FileModTime:1499672107
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Proxima Nova Bold
+NameArray:0,Win,1,Proxima Nova Rg
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaCond-BlackIt
+FamilyName:Proxima Nova Condensed
+StyleName:Black Italic
+FullName:Proxima Nova Condensed Black Italic
+MenuName:Proxima Nova Cn Bl
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Condensed Black Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:96708
+FileModTime:1499672107
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Cond Black It
+NameArray:0,Mac,4,Proxima Nova Condensed Black Italic
+NameArray:0,Win,1,Proxima Nova Cn Bl
+NameArray:0,Win,16,Proxima Nova Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaCond-Black
+FamilyName:Proxima Nova Condensed
+StyleName:Black
+FullName:Proxima Nova Condensed Black
+MenuName:Proxima Nova Cn Bl
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Condensed Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:94516
+FileModTime:1499672107
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Cond Black
+NameArray:0,Mac,4,Proxima Nova Condensed Black
+NameArray:0,Win,1,Proxima Nova Cn Bl
+NameArray:0,Win,16,Proxima Nova Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaCond-BoldIt
+FamilyName:Proxima Nova Condensed
+StyleName:Bold Italic
+FullName:Proxima Nova Condensed Bold Italic
+MenuName:Proxima Nova Cn Rg
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Condensed Bold Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:100032
+FileModTime:1499672107
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Cond Bold It
+NameArray:0,Mac,4,Proxima Nova Condensed Bold Italic
+NameArray:0,Win,1,Proxima Nova Cn Rg
+NameArray:0,Win,16,Proxima Nova Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaCond-Bold
+FamilyName:Proxima Nova Condensed
+StyleName:Bold
+FullName:Proxima Nova Condensed Bold
+MenuName:Proxima Nova Cn Rg
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Condensed Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:95916
+FileModTime:1499672107
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Cond Bold
+NameArray:0,Mac,4,Proxima Nova Condensed Bold
+NameArray:0,Win,1,Proxima Nova Cn Rg
+NameArray:0,Win,16,Proxima Nova Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaCond-ExtrabldIt
+FamilyName:Proxima Nova Condensed
+StyleName:Extrabold Italic
+FullName:Proxima Nova Condensed Extrabold Italic
+MenuName:Proxima Nova Cn Th
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Condensed Extrabold Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:95928
+FileModTime:1499672107
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Cond Extrabld It
+NameArray:0,Mac,4,Proxima Nova Condensed Extrabold Italic
+NameArray:0,Win,1,Proxima Nova Cn Th
+NameArray:0,Win,16,Proxima Nova Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaCond-Extrabld
+FamilyName:Proxima Nova Condensed
+StyleName:Extrabold
+FullName:Proxima Nova Condensed Extrabold
+MenuName:Proxima Nova Cn Th
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Condensed Extrabold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:93252
+FileModTime:1499672107
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Cond Extrabld
+NameArray:0,Mac,4,Proxima Nova Condensed Extrabold
+NameArray:0,Win,1,Proxima Nova Cn Th
+NameArray:0,Win,16,Proxima Nova Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaCond-LightIt
+FamilyName:Proxima Nova Condensed
+StyleName:Light Italic
+FullName:Proxima Nova Condensed Light Italic
+MenuName:Proxima Nova Cn Lt
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Condensed Light Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:96152
+FileModTime:1499672107
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Cond Light It
+NameArray:0,Mac,4,Proxima Nova Condensed Light Italic
+NameArray:0,Win,1,Proxima Nova Cn Lt
+NameArray:0,Win,16,Proxima Nova Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaCond-Light
+FamilyName:Proxima Nova Condensed
+StyleName:Light
+FullName:Proxima Nova Condensed Light
+MenuName:Proxima Nova Cn Lt
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Condensed Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:92288
+FileModTime:1499672107
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Cond Light
+NameArray:0,Mac,4,Proxima Nova Condensed Light
+NameArray:0,Win,1,Proxima Nova Cn Lt
+NameArray:0,Win,16,Proxima Nova Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaCond-RegularIt
+FamilyName:Proxima Nova Condensed
+StyleName:Regular Italic
+FullName:Proxima Nova Condensed Regular Italic
+MenuName:Proxima Nova Cn Rg
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Condensed Regular Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:95616
+FileModTime:1499672107
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Cond Regular It
+NameArray:0,Mac,4,Proxima Nova Condensed Regular Italic
+NameArray:0,Win,1,Proxima Nova Cn Rg
+NameArray:0,Win,16,Proxima Nova Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaCond-Regular
+FamilyName:Proxima Nova Condensed
+StyleName:Regular
+FullName:Proxima Nova Condensed Regular
+MenuName:Proxima Nova Cn Rg
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Condensed Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:92136
+FileModTime:1499672107
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Cond Regular
+NameArray:0,Mac,4,Proxima Nova Condensed Regular
+NameArray:0,Win,1,Proxima Nova Cn Rg
+NameArray:0,Win,16,Proxima Nova Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaCond-SemiboldIt
+FamilyName:Proxima Nova Condensed
+StyleName:Semibold Italic
+FullName:Proxima Nova Condensed Semibold Italic
+MenuName:Proxima Nova Cn Lt
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Condensed Semibold Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:97420
+FileModTime:1499672107
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Cond Semibold It
+NameArray:0,Mac,4,Proxima Nova Condensed Semibold Italic
+NameArray:0,Win,1,Proxima Nova Cn Lt
+NameArray:0,Win,16,Proxima Nova Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaCond-Semibold
+FamilyName:Proxima Nova Condensed
+StyleName:Semibold
+FullName:Proxima Nova Condensed Semibold
+MenuName:Proxima Nova Cn Lt
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Condensed Semibold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:91420
+FileModTime:1499672107
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Cond Semibold
+NameArray:0,Mac,4,Proxima Nova Condensed Semibold
+NameArray:0,Win,1,Proxima Nova Cn Lt
+NameArray:0,Win,16,Proxima Nova Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaCond-ThinIt
+FamilyName:Proxima Nova Condensed
+StyleName:Thin Italic
+FullName:Proxima Nova Condensed Thin Italic
+MenuName:Proxima Nova Cn Th
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Condensed Thin Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:95784
+FileModTime:1499672107
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Cond Thin It
+NameArray:0,Mac,4,Proxima Nova Condensed Thin Italic
+NameArray:0,Win,1,Proxima Nova Cn Th
+NameArray:0,Win,16,Proxima Nova Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaCond-Thin
+FamilyName:Proxima Nova Condensed
+StyleName:Thin
+FullName:Proxima Nova Condensed Thin
+MenuName:Proxima Nova Cn Th
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Condensed Thin.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:91368
+FileModTime:1499672107
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Cond Thin
+NameArray:0,Mac,4,Proxima Nova Condensed Thin
+NameArray:0,Win,1,Proxima Nova Cn Th
+NameArray:0,Win,16,Proxima Nova Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaExCn-BlackIt
+FamilyName:Proxima Nova Extra Condensed
+StyleName:Black Italic
+FullName:Proxima Nova Extra Condensed Black Italic
+MenuName:Proxima Nova ExCn Bl
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extra Condensed Black Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:97836
+FileModTime:1499672107
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova ExCn Black It
+NameArray:0,Mac,4,Proxima Nova Extra Condensed Black Italic
+NameArray:0,Win,1,Proxima Nova ExCn Bl
+NameArray:0,Win,16,Proxima Nova Extra Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaExCn-Black
+FamilyName:Proxima Nova Extra Condensed
+StyleName:Black
+FullName:Proxima Nova Extra Condensed Black
+MenuName:Proxima Nova ExCn Bl
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extra Condensed Black.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:93204
+FileModTime:1499672107
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova ExCn Black
+NameArray:0,Mac,4,Proxima Nova Extra Condensed Black
+NameArray:0,Win,1,Proxima Nova ExCn Bl
+NameArray:0,Win,16,Proxima Nova Extra Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaExCn-BoldIt
+FamilyName:Proxima Nova Extra Condensed
+StyleName:Bold Italic
+FullName:Proxima Nova Extra Condensed Bold Italic
+MenuName:Proxima Nova ExCn Rg
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extra Condensed Bold Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:97228
+FileModTime:1499672107
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova ExCn Bold It
+NameArray:0,Mac,4,Proxima Nova Extra Condensed Bold Italic
+NameArray:0,Win,1,Proxima Nova ExCn Rg
+NameArray:0,Win,16,Proxima Nova Extra Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaExCn-Bold
+FamilyName:Proxima Nova Extra Condensed
+StyleName:Bold
+FullName:Proxima Nova Extra Condensed Bold
+MenuName:Proxima Nova ExCn Rg
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extra Condensed Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:94680
+FileModTime:1499672107
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova ExCn Bold
+NameArray:0,Mac,4,Proxima Nova Extra Condensed Bold
+NameArray:0,Win,1,Proxima Nova ExCn Rg
+NameArray:0,Win,16,Proxima Nova Extra Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaExCn-ExtrabldIt
+FamilyName:Proxima Nova Extra Condensed
+StyleName:Extrabold Italic
+FullName:Proxima Nova Extra Condensed Extrabold Italic
+MenuName:Proxima Nova ExCn Th
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extra Condensed Extrabold Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:97736
+FileModTime:1499672107
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova ExCn Extrabld It
+NameArray:0,Mac,4,Proxima Nova Extra Condensed Extrabold Italic
+NameArray:0,Win,1,Proxima Nova ExCn Th
+NameArray:0,Win,16,Proxima Nova Extra Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaExCn-Extrabld
+FamilyName:Proxima Nova Extra Condensed
+StyleName:Extrabold
+FullName:Proxima Nova Extra Condensed Extrabold
+MenuName:Proxima Nova ExCn Th
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extra Condensed Extrabold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:92420
+FileModTime:1499672107
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova ExCn Extrabld
+NameArray:0,Mac,4,Proxima Nova Extra Condensed Extrabold
+NameArray:0,Win,1,Proxima Nova ExCn Th
+NameArray:0,Win,16,Proxima Nova Extra Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaExCn-LightIt
+FamilyName:Proxima Nova Extra Condensed
+StyleName:Light Italic
+FullName:Proxima Nova Extra Condensed Light Italic
+MenuName:Proxima Nova ExCn Lt
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extra Condensed Light Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:95640
+FileModTime:1499672107
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova ExCn Light It
+NameArray:0,Mac,4,Proxima Nova Extra Condensed Light Italic
+NameArray:0,Win,1,Proxima Nova ExCn Lt
+NameArray:0,Win,16,Proxima Nova Extra Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaExCn-Light
+FamilyName:Proxima Nova Extra Condensed
+StyleName:Light
+FullName:Proxima Nova Extra Condensed Light
+MenuName:Proxima Nova ExCn Lt
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extra Condensed Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:91536
+FileModTime:1499672107
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova ExCn Light
+NameArray:0,Mac,4,Proxima Nova Extra Condensed Light
+NameArray:0,Win,1,Proxima Nova ExCn Lt
+NameArray:0,Win,16,Proxima Nova Extra Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaExCn-RegularIt
+FamilyName:Proxima Nova Extra Condensed
+StyleName:Regular Italic
+FullName:Proxima Nova Extra Condensed Regular Italic
+MenuName:Proxima Nova ExCn Rg
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extra Condensed Regular Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:93092
+FileModTime:1499672107
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova ExCn Regular It
+NameArray:0,Mac,4,Proxima Nova Extra Condensed Regular Italic
+NameArray:0,Win,1,Proxima Nova ExCn Rg
+NameArray:0,Win,16,Proxima Nova Extra Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaExCn-Regular
+FamilyName:Proxima Nova Extra Condensed
+StyleName:Regular
+FullName:Proxima Nova Extra Condensed Regular
+MenuName:Proxima Nova ExCn Rg
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extra Condensed Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:90540
+FileModTime:1499672107
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova ExCn Regular
+NameArray:0,Mac,4,Proxima Nova Extra Condensed Regular
+NameArray:0,Win,1,Proxima Nova ExCn Rg
+NameArray:0,Win,16,Proxima Nova Extra Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaExCn-SemiboldIt
+FamilyName:Proxima Nova Extra Condensed
+StyleName:Semibold Italic
+FullName:Proxima Nova Extra Condensed Semibold Italic
+MenuName:Proxima Nova ExCn Lt
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extra Condensed Semibold Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:95280
+FileModTime:1499672107
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova ExCn Semibold It
+NameArray:0,Mac,4,Proxima Nova Extra Condensed Semibold Italic
+NameArray:0,Win,1,Proxima Nova ExCn Lt
+NameArray:0,Win,16,Proxima Nova Extra Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaExCn-Semibold
+FamilyName:Proxima Nova Extra Condensed
+StyleName:Semibold
+FullName:Proxima Nova Extra Condensed Semibold
+MenuName:Proxima Nova ExCn Lt
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extra Condensed Semibold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:90052
+FileModTime:1499672107
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova ExCn Semibold
+NameArray:0,Mac,4,Proxima Nova Extra Condensed Semibold
+NameArray:0,Win,1,Proxima Nova ExCn Lt
+NameArray:0,Win,16,Proxima Nova Extra Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaExCn-ThinIt
+FamilyName:Proxima Nova Extra Condensed
+StyleName:Thin Italic
+FullName:Proxima Nova Extra Condensed Thin Italic
+MenuName:Proxima Nova ExCn Th
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extra Condensed Thin Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:92532
+FileModTime:1499672107
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova ExCn Thin It
+NameArray:0,Mac,4,Proxima Nova Extra Condensed Thin Italic
+NameArray:0,Win,1,Proxima Nova ExCn Th
+NameArray:0,Win,16,Proxima Nova Extra Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaExCn-Thin
+FamilyName:Proxima Nova Extra Condensed
+StyleName:Thin
+FullName:Proxima Nova Extra Condensed Thin
+MenuName:Proxima Nova ExCn Th
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extra Condensed Thin.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:86940
+FileModTime:1499672107
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova ExCn Thin
+NameArray:0,Mac,4,Proxima Nova Extra Condensed Thin
+NameArray:0,Win,1,Proxima Nova ExCn Th
+NameArray:0,Win,16,Proxima Nova Extra Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-ExtrabldIt
+FamilyName:Proxima Nova
+StyleName:Extrabold Italic
+FullName:Proxima Nova Extrabold Italic
+MenuName:Proxima Nova Th
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extrabold Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:98956
+FileModTime:1499672107
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Extrabld It
+NameArray:0,Mac,4,Proxima Nova Extrabold Italic
+NameArray:0,Win,1,Proxima Nova Th
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-Extrabld
+FamilyName:Proxima Nova
+StyleName:Extrabold
+FullName:Proxima Nova Extrabold
+MenuName:Proxima Nova Th
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Extrabold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:95996
+FileModTime:1499672107
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Extrabld
+NameArray:0,Mac,4,Proxima Nova Extrabold
+NameArray:0,Win,1,Proxima Nova Th
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-LightIt
+FamilyName:Proxima Nova
+StyleName:Light Italic
+FullName:Proxima Nova Light Italic
+MenuName:Proxima Nova Lt
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Light Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:95892
+FileModTime:1499672107
+WeightClass:300
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,18,Proxima Nova Light It
+NameArray:0,Mac,4,Proxima Nova Light Italic
+NameArray:0,Win,1,Proxima Nova Lt
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-Light
+FamilyName:Proxima Nova
+StyleName:Light
+FullName:Proxima Nova Light
+MenuName:Proxima Nova Lt
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:94316
+FileModTime:1499672107
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Proxima Nova Light
+NameArray:0,Win,1,Proxima Nova Lt
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-RegularIt
+FamilyName:Proxima Nova
+StyleName:Regular Italic
+FullName:Proxima Nova Regular Italic
+MenuName:Proxima Nova Rg
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Regular Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:94884
+FileModTime:1499672107
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Regular It
+NameArray:0,Mac,4,Proxima Nova Regular Italic
+NameArray:0,Win,1,Proxima Nova Rg
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-Regular
+FamilyName:Proxima Nova
+StyleName:Regular
+FullName:Proxima Nova Regular
+MenuName:Proxima Nova Rg
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:94668
+FileModTime:1499672107
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Proxima Nova Regular
+NameArray:0,Win,1,Proxima Nova Rg
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-SemiboldIt
+FamilyName:Proxima Nova
+StyleName:Semibold Italic
+FullName:Proxima Nova Semibold Italic
+MenuName:Proxima Nova Lt
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Semibold Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:95328
+FileModTime:1499672107
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Semibold It
+NameArray:0,Mac,4,Proxima Nova Semibold Italic
+NameArray:0,Win,1,Proxima Nova Lt
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-Semibold
+FamilyName:Proxima Nova
+StyleName:Semibold
+FullName:Proxima Nova Semibold
+MenuName:Proxima Nova Lt
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Semibold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:91904
+FileModTime:1499672107
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Proxima Nova Semibold
+NameArray:0,Win,1,Proxima Nova Lt
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNova-ThinIt
+FamilyName:Proxima Nova
+StyleName:Thin Italic
+FullName:Proxima Nova Thin Italic
+MenuName:Proxima Nova Th
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Thin Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:95184
+FileModTime:1499672107
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Proxima Nova Thin It
+NameArray:0,Mac,4,Proxima Nova Thin Italic
+NameArray:0,Win,1,Proxima Nova Th
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ProximaNovaT-Thin
+FamilyName:Proxima Nova
+StyleName:Thin
+FullName:Proxima Nova Thin
+MenuName:Proxima Nova Th
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp64\www\bakery_website\Font\Proxima Nova\Proxima Nova Thin.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+FileLength:90796
+FileModTime:1499672107
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Proxima Nova Thin
+NameArray:0,Win,1,Proxima Nova Th
+NameArray:0,Win,16,Proxima Nova
+%EndFont
+

@@ -1,0 +1,14 @@
+/* Welcome to Compass. Use this file to write IE specific override styles.
+ * Import this file using the following HTML or equivalent:
+ * <!--[if IE]>
+ *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ * <![endif]--> */
+/* line 6, scss/ie.scss */
+.recipes-block__photo-img {
+  width: auto;
+}
+
+/* line 9, scss/ie.scss */
+.fold:before {
+  display: none;
+}

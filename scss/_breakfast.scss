@@ -1,0 +1,110 @@
+.breakfast{
+  height: em(760px);
+  box-sizing: border-box;
+  overflow: hidden;
+  &__padding{
+    padding: 4.486% 0;
+  }
+  &__block{
+    margin-bottom: 3em;
+    &__h2{
+      margin-bottom: 2em;
+    }
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+  &__title{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: em(30px);
+    &__h2{
+      font-size: em(45px);
+      font-weight: 700;
+      line-height: em(30px);
+      &>h2{
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+  &__sub{
+    font-size: em(16px);
+    font-weight: 400;
+    color: #c2beba;
+    &__h2{
+      color: #c8a593;
+      font-size: em(18px);
+      font-weight: 700;
+      line-height: em(30px);
+      text-transform: uppercase;
+    }
+  }
+  &__price{
+    margin-top: 1em;
+    color: #dfc691;
+    font-size: 2.25em;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
+.align-to-right{
+  margin: 0;
+  margin-left: auto;
+}
+.morning{
+  width: 440px;
+  background-color: #f3f1e9;
+  position: relative;
+  text-align: center;
+  $morning-height: em(600px);
+  $clip-size: em(50px);
+  $clip-height-point: $morning-height - $clip-size;
+  height: $morning-height;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, $clip-size 100%, 0% $clip-height-point);
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% $morning-height, $clip-size $morning-height, 0% $clip-height-point);
+
+  outline: 2px dashed #716D64; /* Пунктирная рамка */
+  outline-offset: -10px; /* Выводим рамку внутри элемента */
+
+  padding: em(37px);
+  @include box-sizing(border-box);
+
+  background-image: url("../img/Vektor-Smartobjekt_ear.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  @include legacy-pie-clearfix();
+  &:after{
+    clear: right;
+  }
+  &__h2{
+    color: #56534c;
+    font-size: em(44px);
+    font-weight: 700;
+    line-height: em(60px, 44);
+  }
+  &__main-text{
+    color: #56534c;
+    font-size: em(14px);
+    font-weight: 400;
+    line-height: em(30px, 14);
+    margin-bottom: em(60px);
+  }
+  &__button{
+    border-style: solid;
+    padding: em(19px) em(70px);
+    color: #A47D5E;
+    font-size: em(18px);
+    font-weight: em(18px);
+    @include transition-duration(.2s);
+    @include transition-timing-function(ease-in);
+    &:hover{
+      background-color: #A47D5E;
+      color: #FFF;
+    }
+  }
+}
+
+.drop-right-shadow{
+  @include filter(drop-shadow(17px 0 16px rgba(0, 0, 0, 0.5)));
+}

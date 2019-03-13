@@ -1,0 +1,138 @@
+.advenced-dish{
+  height: 920px;
+  background-color: #f3f1e9;
+  background-image: url("../img/Vektor-Smartobjekt_windmill_mini.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: em(100px);
+  box-sizing: border-box;
+  &__header{
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  &__h1{
+    color: #56534c;
+    font-size: em(48px);
+    margin: 0;
+    line-height: em(30px, 48);
+    display: inline-block;
+  }
+  &__sub{
+    color: #a47d5e;
+    font-size: em(14px);
+    line-height: em(30px, 14);
+    text-transform: uppercase;
+  }
+}
+.product-list-item{
+  text-align: center;
+  &>img{
+    @include box-shadow(0 10px 10px rgba(0,0,0, 0.1));
+    @include border-radius(100%);
+  }
+  &__h2{
+    color: #a47d5e;
+    font-size: em(30px);
+    font-weight: 700;
+    line-height: em(30px, 30);
+  }
+  &__text{
+    color: #56534c;
+    font-size: em(14px);
+    font-weight: 400;
+    line-height: em(20px, 14);
+  }
+}
+.main-product{
+  text-align: right;
+  position: relative;
+  font-weight: 700;
+  line-height: em(30px);
+  &__img{
+    max-width: em(840px);
+    border: 10px solid #ffffff;
+    @include box-shadow(0 0 18px rgba(0, 0, 0, 0.14));
+    &-wrapper{
+      display: inline-block;
+      position: relative;
+    }
+  }
+  &__info{
+    position: absolute;
+    width: 12.3em;
+    height: 12.3em;
+    background-color: #FFFFFF;
+    right: em(10px);
+    @include box-shadow(0 0 18px rgba(0, 0, 0, 0.14));
+    $z-index: 6;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+    &__top{
+      top: em(-23px);
+      background-color: rgba(255,255,255,0.8);
+      z-index: $z-index - 2;
+    }
+    &__middle{
+      background-color: rgba(255,255,255,0.8);
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      z-index: $z-index - 1;
+    }
+    &__bottom{
+      bottom: em(-23px);
+      z-index: $z-index;
+    }
+    &__bg-image{
+      background-image: url("../img/ready-in-img.jpg");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      text-align: center;
+    }
+  }
+  &__word{
+    color: #a47d5e;
+    font-size: em(18px);
+    text-transform: uppercase;
+  }
+  &__time{
+    color: #56534c;
+    font-size: em(60px);
+    text-transform: uppercase;
+    line-height: 1;
+    &__focused{
+      font-size: em(92px);
+      color: #dfc691;
+      line-height: 0.85;
+      margin-top: 3%;
+    }
+  }
+  &__mins{
+    color: #979285;
+    font-size: em(18px);
+  }
+  &__wrapper{
+    margin: 14% 0;
+  }
+  &__left-bottom-btn{
+    position: absolute;
+    left: -5%;
+    bottom: -3%;
+    background-color: #FFFFFF;
+    color: #dfc691;
+    text-transform: uppercase;
+    border-color: #dfc691;
+    @include transition-duration(.2s);
+    @include transition-timing-function(ease-in);
+    &:hover{
+      background-color: #dfc691;
+      color: #FFFFFF;
+      border-color: #FFFFFF;
+    }
+  }
+}

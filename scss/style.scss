@@ -1,0 +1,69 @@
+@import "normalize/_normalize";
+@include normalize();
+@import "compass";
+/* @import "compass/css3"; */
+@import "grid-css-tricks";
+
+
+@import "mixins/font_mixin";
+@import "mixins/em";
+
+
+@include font-face("Proxuma Nova", '../fonts/ProxumaNovaRegular/proxima_nova_regular', regular);
+@include font-face("Scriptina", '../fonts/Scriptina/scriptina', regular);
+
+@mixin display-inline-flex{
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+
+.Alegreya{
+  font-family: 'Alegreya', serif;
+}
+.Scriptina{
+  font-family: 'Scriptina', cursive;
+}
+.ProximaNova{
+  font-family: "Proxuma Nova", serif;
+}
+.PlayfairDisplay{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.float-right{
+  float: right;
+}
+.block-center{
+  margin: 0 auto;
+}
+.button{
+  @include inline-block;
+  font-family: 'Alegreya';
+  font-weight: bold;
+  font-size: em(14px);
+  padding: em(20px) em(48px);
+  border: 1px #9e9c93 dashed;
+  width: auto;
+  text-decoration: none;
+  cursor: pointer;
+}
+.page__inner{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@import "head_section";
+@import "art_of_cakes";
+@import "tasty-pancakes";
+@import "breakfast";
+@import "advenced_dish";
+@import "footer";
+
+.padding60{
+  padding: 0 em(60px);
+  letter-spacing: 0.1em;
+}
+.center-text-align{
+  text-align: center;
+}

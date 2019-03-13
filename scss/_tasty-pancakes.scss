@@ -1,0 +1,383 @@
+@media all and (max-device-width: 1024px) {
+  .header {
+    background-attachment: scroll;
+  }
+}
+.tasty-pancakes{
+  height: 760px;
+  &__padding{
+    padding: em(94px) em(99px) em(94px) em(99px);
+  }
+  &__main-block{
+    padding-top: em(43px);
+    padding-right: 2%;
+
+    max-width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+  }
+  &__wrapper{
+    position: relative;
+  }
+  &__resizer{
+    float:left;
+    position: relative;
+    width: 0;
+    height: 100%;
+    &:after{
+      $pseudo-elem-size: em(49px);
+      content: " ";
+      position: absolute;
+      overflow: visible;
+      margin: auto 0;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      margin-left: 0 - ($pseudo-elem-size / 2);
+      width: $pseudo-elem-size;
+      height: $pseudo-elem-size;
+      z-index: 0;
+      background-color: #FFFFFF;
+      @include border-radius(100%);
+      background-image: url("../img/interface---vertical-burger.png");
+      background-position: center center;
+      background-repeat: no-repeat;
+      @include box-shadow(-2px 0px 0px 0px rgba(0,0,0,0.3));
+      z-index: 1;
+      @include transition-duration(.2s);
+      @include transition-timing-function(ease-in);
+    }
+  }
+}
+.soft-shadow{
+  @include box-shadow(0 25px 54px rgba(105, 80, 58, 0.45));
+}
+.drop-soft-shadow{
+  @include filter(drop-shadow(0 25px 54px rgba(105, 80, 58, 0.45)));
+}
+
+.ready-in-block{
+  width: em(200px);
+  height: em(200px);
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #fefefe;
+  background-image: url("../img/ready-in-img.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  z-index: 1;
+  &__rdy-text{
+    display: block;
+    color: #a47d5e;
+    font-size: em(18px);
+    padding-top: 14%;
+    padding-bottom: 3%;
+    text-transform: uppercase;
+  }
+  &__time-text{
+    display: block;
+    font-size: em(92px);
+    color: #dfc691;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 5%;
+  }
+  &__mins-text{
+    font-size: em(18px);
+    display: block;
+    color: #979285;
+    line-height: em(30px);
+  }
+}
+
+
+.fullsized-slide{
+  $recipe-height: em(512px);
+  $clip-size: em(50px);
+  $clip-height-point: $recipe-height - $clip-size;
+  width: 100%;
+  height: $recipe-height;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, $clip-size 100%, 0% $clip-height-point);
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% $recipe-height, $clip-size $recipe-height, 0% $clip-height-point);
+  &__photo{
+    width: 40%;
+    height: 100%;
+    float:left;
+    display: block;
+    @include box-sizing(border-box);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+  }
+  &__photo-wrap{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  &__photo-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    @supports (-ms-ime-align:auto) {
+      & {
+        width: auto;
+      }
+    }
+  }
+  &__content{
+    width: 60%;
+    height: 100%;
+    float:left;
+    display: block;
+    @include box-sizing(border-box);
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    background-image: url("../img/Vektor-Smartobjekt_windmill.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    @include box-shadow(-3px 0px 0px 0px rgba(0,0,0,0.3));
+  }
+}
+
+.recipe{
+  &__ol-list{
+    margin: 0;
+    padding: 0 0 0 1.2em;
+  }
+  &__conainer-titles{
+    position: relative;
+    height: 7.5em;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 0;
+  }
+  &__name{
+    overflow: visible;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+
+    &.hidden{
+
+    }
+  }
+  &__methods{
+    position: relative;
+    height: em(160px);
+    width: 100%;
+  }
+  &__method{
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow: auto;
+    position: absolute;
+
+    &.hidden{
+
+    }
+  }
+  &__padding{
+    padding: 5% 10% 0 10%;
+  }
+  &__title-h1{
+    font-weight: 700;
+    line-height: 1em;
+    /* Text style for "Tasty panc" */
+    color: #56534c;
+    font-size: 3em;
+    &__mini{
+      font-size: 2.7em;
+    }
+
+  }
+  /* Text style for "season fav" */
+  &__title-sub{
+    font-weight: 700;
+    color: #a47d5e;
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+  &__text{
+    color: #56534c;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: em(24px);
+    margin: 0;
+  }
+  &__splitter{
+    height: 2.5em;
+  }
+}
+.fold{
+  &:before {
+    content: " ";
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    width: 0px;
+    height: 0px;
+    border-top: 50px solid #eee;
+    border-left: 50px solid transparent;
+    @include box-shadow(7px 7px 7px rgba(0,0,0,0.3));
+    z-index: 2;
+    @supports (-ms-ime-align:auto) {
+      & {
+        display: none;
+      }
+    }
+  }
+}
+.owl-carousel{
+  width: 60.7% !important;
+  margin: 0 auto;
+  height: 100%;
+}
+.owl-nav{
+  float: left;
+  top: 0;
+  width: 100%;
+  height: 0;
+}
+.owl-prev, .owl-next{
+  height: em(32px);
+  width: em(32px);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  @include filter(brightness(100%));
+  &:hover{
+    @include filter(brightness(60%));
+  }
+
+
+}
+$owl-margin: em(30px);
+$owl-nav-size: em(32px);
+$owl-calcd-margn: (-($owl-nav-size)-($owl-margin));
+.owl-prev{
+  left: $owl-calcd-margn;
+}
+.owl-next{
+  right: $owl-calcd-margn;
+}
+
+@include keyframes(slideToLeft){
+  0% {
+   @include transform( translateX(20px));
+ }
+ 100% {
+   @include transform( translateX(0));
+ }
+}
+@include keyframes(slideToLeftN){
+  0% {
+   @include transform( translateX(0));
+ }
+ 100% {
+   @include transform( translateX(-20px));
+ }
+}
+@include keyframes(slideToTop){
+  0% {
+   @include transform( translateY(-20px));
+ }
+ 100% {
+   @include transform( translateY(0));
+ }
+}
+@include keyframes(opacityAnimate){
+  0% {
+   @include opacity(0);
+ }
+ 100% {
+   @include opacity(1);
+ }
+}
+@include keyframes(opacityAnimateReverse){
+  0% {
+   @include opacity(1);
+ }
+ 100% {
+   @include opacity(0);
+ }
+}
+
+.slideToLeft {
+  @include animation-iteration-count(1);
+  @include animation-duration(1s);
+  @include animation-fill-mode(backwards);
+  &.active{
+    @include animation-name(slideToLeft);
+    @include animation-timing-function(ease-in-out);
+    z-index: 1;
+  }
+  &.hidden {
+    @include animation-name(none);
+  }
+}
+
+.slideToTop{
+  @extend .slideToLeft;
+  &.active{
+    @include animation-name(slideToTop);
+    @include animation-timing-function(ease-in-out);
+    z-index: 1;
+  }
+  &.hidden {
+    @include animation-name(slideToTopN);
+    @include animation-timing-function(ease-in-out);
+  }
+}
+
+.fadeInDown{
+  &__fading-elem{
+    z-index: 1;
+  }
+}
+
+.opacity-animate,.opacity-animate-no-hidden{
+  @include opacity(0);
+  @include animation-iteration-count(1);
+  @include animation-duration(1s);
+  @include animation-fill-mode(forwards);
+  @include animation-timing-function(ease-in-out);
+}
+.active > .opacity-animate, .opacity-animate.active {
+  @include animation-name(opacityAnimate);
+  z-index: 1;
+}
+.hidden > .opacity-animate, .opacity-animate.hidden {
+  @include animation-name(opacityAnimateReverse);
+}
+.opacity-animate-no-hidden{
+  display: none;
+  .active>&, &.active {
+    z-index: 1;
+    display: inherit;
+    @include animation-name(opacityAnimate);
+  }
+}
+

@@ -1,0 +1,180 @@
+
+/**
+ * Art of cakes
+ */
+ .art_of_cakes{
+  padding: 105px 0;
+  height: 760px;
+  background-image: url("../img/img_texture1.jpg");
+  background-repeat: repeat;
+  position: relative;
+  display: block;
+  position: relative;
+  @include box-sizing(border-box);
+  text-align: center;
+  &__top{
+    position: absolute;
+    width: 50%;
+    overflow: visible;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin-top: -53px;
+    width: 106px;
+    height: 106px;
+    z-index: 0;
+  }
+  &__circle{
+    top: 14px; left: 14px; bottom: 0; right: 0;
+    position: absolute;
+    background-color: #fff;
+    width: 79.5px;
+    height: 79.5px;
+    border-radius: 100%;
+    z-index: -1;
+  }
+  &__splitter{
+    top:0;
+    position: absolute;
+    width: 100%;
+    height: 11px;
+    background-color: #FFFFFF;
+  }
+  &__header-text{
+    color: #56534c;
+    font-size: 48px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+  }
+  &__underheader-text{
+    color: #a47d5e;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.09em;
+    margin: 0;
+    padding: 0;
+  }
+  &__main-text{
+    font-size: 14px;
+    line-height: 24px;
+    color: #56534c;
+    margin-top: 33px;
+    margin-bottom: 0;
+  }
+  &__Chef-Cook{
+    font-size: 24px;
+    color: #56534c;
+    line-height: 1;
+    margin: 0;
+    padding: 41px 0;
+  }
+}
+
+
+.chef-badge{
+  width: 372px;
+  height: 110px;
+  @include display-flex;
+  @include flex-direction(row);
+  justify-content: space-between;
+  &__name{
+    align-self: center;
+    width: 111px;
+    border-top: 1px solid #d7d5ca;
+    border-bottom: 1px solid #d7d5ca;
+    font-size: 24px;
+    color: #56534c;
+    padding: 19px 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  &__avatar{
+    align-self: center;
+    width: 100px;
+    height: 100px;
+  }
+}
+.chef-quote{
+  &__wrapper{
+    margin: 15px auto;
+    width: 411px;
+    @include display-flex;
+    @include flex-direction(row);
+    justify-content: space-between;
+  }
+  &__text{
+    display: inline-block;
+    font-size: 24px;
+    font-family: "Scriptina";
+    line-height: 1.25;
+    text-align: center;
+    width: 252px;
+    min-height: 67px;
+    padding: 29px;
+    color: #a47d5e;
+  }
+  &__quotes{
+    display: inline-block;
+    font-size: 60px;
+    width: 0.5em;
+    height: 0.5em;
+    font-family: "Times New Roman";
+    color: rgba(86, 83, 76, 0.502);
+    vertical-align: baseline;
+    &:last-child{
+      align-self: flex-end;
+    }
+  }
+}
+.tastes{
+  @include display-flex;
+  @include flex-direction(row);
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  &__img{
+    /*Можно сделать через outline-offset*/
+    width: 48%;
+    height: auto;
+    padding: 1%;
+    overflow: hidden;
+    &>img{
+      outline: 3px solid #FFFFFF;
+      outline-offset: -10px;
+    }
+  }
+}
+.sticker{
+  position: relative;
+  &__wrapper{
+    width: 45%;
+    height: 45%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-image: url("../img/Vektor-Smartobjekt-Star.png");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    &:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+  }
+  &__text{
+    display: inline-block;
+    font-size: 30px;
+    line-height: 36px;
+    color: #c9b176;
+    vertical-align: middle;
+    width: 70%
+  }
+}

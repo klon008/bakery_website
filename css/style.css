@@ -857,7 +857,7 @@ template {
 /* line 5, scss/_art_of_cakes.scss */
 .art_of_cakes {
   padding: 105px 0;
-  height: 760px;
+  min-height: 760px;
   background-image: url("../img/img_texture1.jpg");
   background-repeat: repeat;
   position: relative;
@@ -1744,7 +1744,7 @@ template {
   background-position: right bottom;
   *zoom: 1;
 }
-/* line 22, ../../../../Program Files/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 22, ../../../Program Files/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss */
 .morning:after {
   content: "\0020";
   display: block;
@@ -1977,6 +1977,95 @@ template {
   border-color: #FFFFFF;
 }
 
+/* line 1, scss/_arrow_down.scss */
+.arrow_down__container {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+}
+
+/* line 8, scss/_arrow_down.scss */
+.chevron {
+  position: absolute;
+  width: 28px;
+  height: 8px;
+  opacity: 0;
+  transform: scale3d(0.5, 0.5, 0.5);
+  animation: move 3s ease-out infinite;
+}
+
+/* line 17, scss/_arrow_down.scss */
+.chevron:first-child {
+  animation: move 3s ease-out 1s infinite;
+}
+
+/* line 21, scss/_arrow_down.scss */
+.chevron:nth-child(2) {
+  animation: move 3s ease-out 2s infinite;
+}
+
+/* line 25, scss/_arrow_down.scss */
+.chevron:before,
+.chevron:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 51%;
+  background: #fff;
+}
+
+/* line 35, scss/_arrow_down.scss */
+.chevron:before {
+  left: 0;
+  transform: skew(0deg, 30deg);
+}
+
+/* line 40, scss/_arrow_down.scss */
+.chevron:after {
+  right: 0;
+  width: 50%;
+  transform: skew(0deg, -30deg);
+}
+
+@keyframes move {
+  25% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  67% {
+    opacity: 1;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+  }
+}
+/* line 65, scss/_arrow_down.scss */
+.arrow_down__text {
+  display: block;
+  margin-top: 75px;
+  margin-left: -30px;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: .25;
+  animation: pulse 2s linear alternate infinite;
+  position: absolute;
+}
+
+@keyframes pulse {
+  to {
+    opacity: 1;
+  }
+}
 /* line 1, scss/_footer.scss */
 .footer {
   width: 100%;
@@ -1989,8 +2078,13 @@ template {
 .footer__nav {
   text-align: center;
 }
+/* line 10, scss/_footer.scss */
+.footer__first_color_type {
+  background-image: url("../img/img_texture1.jpg");
+  background-repeat: repeat;
+}
 
-/* line 12, scss/_footer.scss */
+/* line 16, scss/_footer.scss */
 .menu_horizontal__footer {
   background: none;
   display: inline-block;
@@ -1999,36 +2093,36 @@ template {
   border-top: 1px solid #c2beba;
   border-bottom: 1px solid #c2beba;
 }
-/* line 21, scss/_footer.scss */
+/* line 25, scss/_footer.scss */
 .menu_horizontal__a__footer {
   color: #56534c;
 }
-/* line 26, scss/_footer.scss */
+/* line 30, scss/_footer.scss */
 .menu_horizontal__logo__in-footer {
   display: inline-block;
   margin: 0 2.8125em;
 }
-/* line 33, scss/_footer.scss */
+/* line 37, scss/_footer.scss */
 .menu_horizontal__li__in-footer:after {
   color: #56534c;
 }
 
-/* line 39, scss/_footer.scss */
+/* line 43, scss/_footer.scss */
 .logo__text__in-footer {
   color: #56534c;
 }
-/* line 41, scss/_footer.scss */
+/* line 45, scss/_footer.scss */
 .logo__text__in-footer:hover {
   color: #716D64;
 }
 
-/* line 63, scss/style.scss */
+/* line 64, scss/style.scss */
 .padding60 {
   padding: 0 3.75em;
   letter-spacing: 0.1em;
 }
 
-/* line 67, scss/style.scss */
+/* line 68, scss/style.scss */
 .center-text-align {
   text-align: center;
 }

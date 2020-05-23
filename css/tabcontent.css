@@ -1,0 +1,66 @@
+/* Style the tab */
+/* line 2, scss/tabcontent.scss */
+.tab {
+  overflow: hidden;
+}
+
+/* Style the buttons that are used to open the tab content */
+/* line 7, scss/tabcontent.scss */
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 14px 16px;
+  transition: 0.3s;
+  font-family: "Alegreya";
+  box-sizing: content-box;
+  font-size: 20px;
+  -webkit-box-sizing: content-box;
+  border-bottom: 2px solid transparent;
+}
+/* line 19, scss/tabcontent.scss */
+.tab button.active {
+  border-bottom: 2px solid rgba(210, 183, 164, 0.55);
+}
+/* line 22, scss/tabcontent.scss */
+.tab button:hover {
+  border-bottom: 2px solid #a47d5e;
+}
+/* line 25, scss/tabcontent.scss */
+.tab button i {
+  font-size: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+  font-weight: 400;
+}
+
+/* Change background color of buttons on hover */
+/* Create an active/current tablink class */
+/* Style the tab content */
+/* line 44, scss/tabcontent.scss */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+/* line 50, scss/tabcontent.scss */
+.tabcontent {
+  animation: fadeEffect 1s;
+  /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 60, scss/tabcontent.scss */
+.menu_tabs {
+  margin-bottom: 54px;
+}

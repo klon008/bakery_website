@@ -1,0 +1,62 @@
+/* Style the tab */
+.tab {
+    overflow: hidden;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 14px 16px;
+    transition: 0.3s;
+    font-family: "Alegreya";
+    box-sizing: content-box;
+    font-size: 20px;
+    -webkit-box-sizing:content-box;
+    border-bottom: 2px solid transparent;
+    &.active{
+        border-bottom: 2px solid rgba(210, 183, 164, 0.55);
+    }
+    &:hover{
+        border-bottom: 2px solid #a47d5e;
+    }
+    i{
+        font-size: 30px;
+        margin-right: 10px;
+        vertical-align: middle;
+        font-weight: 400;
+    }
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.menu_tabs{
+    margin-bottom: 54px;
+}

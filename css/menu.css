@@ -1,0 +1,66 @@
+/* line 1, scss/menu.scss */
+.outmenu_item {
+  display: flex;
+  align-items: stretch;
+  margin-botttom: 30px;
+}
+
+/* line 6, scss/menu.scss */
+.outmenu_item__image {
+  padding: 0 20px 20px 0;
+}
+
+/* line 9, scss/menu.scss */
+.outmenu_item__description {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: left;
+  color: #808080;
+}
+
+/* line 18, scss/menu.scss */
+.outmenu_item__text_el {
+  padding-right: 20px;
+}
+
+/* line 21, scss/menu.scss */
+.outmenu_item__text_el header {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 7px;
+}
+/* line 25, scss/menu.scss */
+.outmenu_item__text_el header * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 29, scss/menu.scss */
+.outmenu_item__text_el header h2 {
+  flex-grow: 1;
+  order: 1;
+  font-size: 20px;
+  color: #000;
+}
+/* line 35, scss/menu.scss */
+.outmenu_item__text_el header:after {
+  content: "";
+  display: block;
+  border-bottom: 1px dashed #959595;
+  min-width: 1px;
+  order: 2;
+  flex-grow: 20;
+}
+/* line 43, scss/menu.scss */
+.outmenu_item__text_el header p {
+  order: 3;
+  color: #000;
+}
+
+/* line 50, scss/menu.scss */
+.om_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

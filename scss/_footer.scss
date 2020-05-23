@@ -7,6 +7,10 @@
   &__nav{
     text-align: center;
   }
+  &__first_color_type{
+      background-image: url("../img/img_texture1.jpg");
+      background-repeat: repeat;
+  }
 }
 .menu_horizontal{
   &__footer{

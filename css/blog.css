@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* line 1, scss/blog.scss */
+.blog_title {
+  font-size: 4em;
+  margin-bottom: 2em;
+}
+
+/* line 5, scss/blog.scss */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* line 9, scss/blog.scss */
+.blog_item {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
+  padding: 0 25px 25px;
+}
+
+/* line 16, scss/blog.scss */
+.blog_item__image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+/* line 22, scss/blog.scss */
+.blog_item__title {
+  color: #56534c;
+  font-size: 32px;
+  text-align: left;
+}
+
+/* line 28, scss/blog.scss */
+.blog_item__addinfo {
+  color: #a47d5e;
+  font-size: 14px;
+  letter-spacing: 0.09em;
+  display: flex;
+}
+/* line 33, scss/blog.scss */
+.blog_item__addinfo *:first-child {
+  margin-right: 1em;
+}
+/* line 37, scss/blog.scss */
+.blog_item__addinfo *:nth-child(2):before {
+  content: "|";
+  margin-right: 1em;
+}
+
+/* line 44, scss/blog.scss */
+.blog_item__short_text {
+  text-align: left;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+/* line 51, scss/blog.scss */
+.blog_item__readmore {
+  text-align: right;
+}
+/* line 53, scss/blog.scss */
+.blog_item__readmore a {
+  color: inherit;
+  /* blue colors for links too */
+  text-decoration: inherit;
+  /* no underline */
+  border-bottom: 1px solid black;
+}
+/* line 57, scss/blog.scss */
+.blog_item__readmore a:hover {
+  color: #dfc691;
+  border-bottom: 1px solid #dfc691;
+}
+/* line 62, scss/blog.scss */
+.blog_item__readmore a:after {
+  content: "»";
+  margin-left: 1em;
+}

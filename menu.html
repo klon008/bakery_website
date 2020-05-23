@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bakery Website - Menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="css/tabcontent.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/menu.css" rel="stylesheet"/>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="libs/owl-carousel/assets/owl.carousel.min.css"/>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if IE]>
+    <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+</head>
+<body>
+<header class="header parallax-window" data-parallax="scroll" data-image-src="img/background.jpg">
+    <!-- NAVIGATION IN HEADER -->
+    <nav class="menu_wrapper">
+        <div class="page__inner menu_wrapper__inner row">
+            <div class="logo Scriptina navigation__left"><a href="index.html" class="logo__text">Gustoso</a></div>
+            <div class="menu_horizontal navigation__center">
+                <ul class="menu_horizontal__ul">
+                    <li class="menu_horizontal__li"><a class="menu_horizontal__a" href="index.html">Welcome</a></li>
+                    <li class="menu_horizontal__li"><a class="menu_horizontal__a" href="menu.html">Menu</a></li>
+                    <li class="menu_horizontal__li"><a class="menu_horizontal__a" href="gallery.html">Gallery</a></li>
+                    <li class="menu_horizontal__li"><a class="menu_horizontal__a" href="blog.html">News</a></li>
+                    <li class="menu_horizontal__li"><a class="menu_horizontal__a" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu_socials navigation__right">
+                <ul class="menu_socials__ul">
+                    <li class="menu_socials__li float-right"><a target="_blank"
+                                                                href="https://twitter.com/klon_008"><img
+                            class="menu_socials__img"
+                            src="img/logo - Twitter.png"></a></li>
+                    <li class="menu_socials__li float-right"><a target="_blank" href="https://vk.com/klon_008"><img
+                            class="menu_socials__img" src="img/VK_Logo.png"></a></li>
+                    <li class="menu_socials__li float-right"><a target="_blank"
+                                                                href="https://www.instagram.com/klon_008/"><img
+                            class="menu_socials__img"
+                            src="img/logo - Instagram.png"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- TEXT BLOCK IN HEADER -->
+    <div class="page__inner">
+        <div class="header__text">
+            <h1 class="PlayfairDisplay header__title">Our Menu</h1>
+            <div class="header__dashed-spacer"><img src="img/dashed-line.png" alt="dashed spacer"></div>
+            <a href="#menu_block">
+                <div class="arrow_down__container">
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+                    <span class="arrow_down__text">Scroll down</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</header>
+
+
+<section class="art_of_cakes gallery__art_of_cakes" id="menu_block">
+    <!-- SPLITTER -->
+    <div class="art_of_cakes__splitter">
+        <div class="art_of_cakes__top">
+            <div class="art_of_cakes__circle"></div>
+            <img class="art_of_cakes__img" src="img/Vektor-Smartobjekt.png">
+        </div>
+    </div>
+    <!-- LEF-RIGHT 2 Column -->
+    <div class="page__inner">
+
+        <div class="tab menu_tabs">
+            <button class="tablinks" id="defaultTabOpen" onclick="openTab(event, 'All')"><i class="flaticon-tray-1"></i>
+                All
+            </button>
+            <button class="tablinks" onclick="openTab(event, 'Breakfast')"><i class="flaticon-coffee"></i> Breakfast
+            </button>
+            <button class="tablinks" onclick="openTab(event, 'Lunch')"><i class="flaticon-waitress"></i> Lunch</button>
+            <button class="tablinks" onclick="openTab(event, 'Dinner')"><i class="flaticon-restaurant-4"></i> Dinner
+            </button>
+            <button class="tablinks" onclick="openTab(event, 'Dessert')"><i class="flaticon-spaghetti"></i> Dessert
+            </button>
+        </div>
+
+
+        <!-- Tab content -->
+        <div id="All" class="tabcontent">
+            <div class="om_grid" id="menu_grid_All">
+            </div>
+        </div>
+
+        <div id="Breakfast" class="tabcontent">
+            <div class="om_grid" id="menu_grid_Breakfast">
+            </div>
+        </div>
+
+        <div id="Lunch" class="tabcontent">
+            <div class="om_grid" id="menu_grid_Lunch">
+            </div>
+        </div>
+
+        <div id="Dinner" class="tabcontent">
+            <div class="om_grid" id="menu_grid_Dinner">
+            </div>
+        </div>
+
+        <div id="Dessert" class="tabcontent">
+            <div class="om_grid" id="menu_grid_Dessert">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer footer__first_color_type">
+    <!-- NAVIGATION IN FOOTER -->
+    <div class="page__inner">
+        <nav class="footer__nav">
+            <div class="menu_horizontal menu_horizontal__footer">
+                <ul class="menu_horizontal__ul menu_horizontal__ul__in-footer">
+                    <li class="menu_horizontal__li menu_horizontal__li__in-footer"><a
+                            class="menu_horizontal__a menu_horizontal__a__footer" href="menu.html">our menu</a></li>
+                    <li class="menu_horizontal__li menu_horizontal__li__in-footer"><a
+                            class="menu_horizontal__a menu_horizontal__a__footer" href="gallery.html">gallery</a>
+                    </li>
+                    <li class="menu_horizontal__li menu_horizontal__li__in-footer"><a
+                            class="menu_horizontal__a menu_horizontal__a__footer" href="#">culture</a></li>
+                </ul>
+            </div>
+            <div class="logo menu_horizontal__logo__in-footer Scriptina"><a href="index.html"
+                                                                            class="logo__text logo__text__in-footer">Gustoso</a>
+            </div>
+            <div class="menu_horizontal menu_horizontal__footer">
+                <ul class="menu_horizontal__ul menu_horizontal__ul__in-footer">
+                    <li class="menu_horizontal__li menu_horizontal__li__in-footer"><a
+                            class="menu_horizontal__a menu_horizontal__a__footer" href="#">events</a></li>
+                    <li class="menu_horizontal__li menu_horizontal__li__in-footer"><a
+                            class="menu_horizontal__a menu_horizontal__a__footer" href="#">catering</a></li>
+                    <li class="menu_horizontal__li menu_horizontal__li__in-footer"><a
+                            class="menu_horizontal__a menu_horizontal__a__footer" href="contact.html">visit us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</footer>
+<link href="libs/flaticon/flaticon.css" rel="stylesheet"/>
+<script src="js/parallax.js"></script>
+<script src="js/script.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/temp_data_fill.js"></script>
+</body>
+</html>

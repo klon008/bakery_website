@@ -242,7 +242,7 @@ function loadTempData() {
 }
 
 function generateArticles(article, root) {
-    root.innerHTML = `<div class="featured-pic">
+    var result = `<div class="featured-pic">
                 <img src="${article.img}" alt="${article.name}">
             </div>
             <div class="news_article__content_wrap">
@@ -256,13 +256,12 @@ function generateArticles(article, root) {
             <div class="hr_wrap"><hr></div>
             <div class="news_article__footer">
                 <ul class="news_article__footer_nav clearfix">`;
-     if (article.id && article.id > 0) root.innerHTML += `<li><a href="${'articles.html?id=' + (article.id - 1)}">< Prev</a></li>`;
-    if (article.id && article.id < 60) root.innerHTML += `<li><a href="${'articles.html?id=' + (article.id + 1)}">Next ></a></li>`;
-    root.innerHTML +=
-
-                `</ul>
-
+    if (article.id && article.id > 0) result = result + `<li><a href="${'articles.html?id=' + (article.id - 1)}">< Prev</a></li>`;
+    if (article.id && article.id < 60) result = result +`<li><a href="${'articles.html?id=' + (article.id + 1)}">Next ></a></li>`;
+    root.innerHTML = root.innerHTML + `</ul>
             </div>`;
+
+    root.innerHTML = result;
 }
 
 function getParams(url) {

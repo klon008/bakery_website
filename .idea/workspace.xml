@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddfe7618-4f43-4060-afba-44b4ef087d43" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles.html" beforeDir="false" afterPath="$PROJECT_DIR$/articles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/articles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/articles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/temp_data_fill.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/temp_data_fill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/articles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/articles.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,30 +20,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articles.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="98" column="22" lean-forward="true" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+            <state relative-caret-position="357">
+              <caret line="54" column="143" selection-start-line="54" selection-start-column="143" selection-end-line="54" selection-end-column="143" />
               <folding>
-                <element signature="e#5498#5504#0" expanded="true" />
-                <element signature="e#6034#6040#0" expanded="true" />
-                <element signature="e#6774#6779#0" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#p#7;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="136">
-                <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="106" column="429" selection-start-line="106" selection-start-column="429" selection-end-line="106" selection-end-column="429" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#p#0;n#article#4;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,17 +48,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/articles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="12" />
+            <state relative-caret-position="231">
+              <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/temp_data_fill.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="338">
+              <caret line="260" column="21" selection-start-line="260" selection-start-column="21" selection-end-line="260" selection-end-column="21" />
+              <folding>
+                <element signature="e#597#603#0" expanded="true" />
+                <element signature="e#906#912#0" expanded="true" />
+                <element signature="e#3496#3501#0" expanded="true" />
+                <element signature="e#924#930#0" expanded="true" />
+                <element signature="e#6324#6329#0" expanded="true" />
+                <element signature="e#7187#7193#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/blog.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="459">
               <caret line="27" selection-start-line="27" selection-end-line="41" selection-end-column="1" />
             </state>
           </provider>
@@ -105,6 +116,9 @@
       <find>Roll</find>
       <find>.blog_item__readmore</find>
       <find>blog_item__addinfo</find>
+      <find>menu_article</find>
+      <find>news_article</find>
+      <find>debugger</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;li class=&quot;menu_horizontal__li&quot;&gt;&lt;a class=&quot;menu_horizontal__a&quot; href=&quot;index.html&quot;&gt;Welcome&lt;/a&gt;&lt;/li&gt;</replace>
@@ -114,6 +128,7 @@
       <replace>&lt;a href=&quot;index.html&quot; class=&quot;logo__text&quot;&gt;Gustoso&lt;/a&gt;</replace>
       <replace>&lt;li class=&quot;menu_horizontal__li&quot;&gt;&lt;a class=&quot;menu_horizontal__a&quot; href=&quot;blog.html&quot;&gt;News&lt;/a&gt;&lt;/li&gt;</replace>
       <replace>om_grid_item</replace>
+      <replace>news_article</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -136,12 +151,12 @@
         <option value="$PROJECT_DIR$/gallery.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/scss/blog.scss" />
-        <option value="$PROJECT_DIR$/js/temp_data_fill.js" />
         <option value="$PROJECT_DIR$/css/articles.css" />
-        <option value="$PROJECT_DIR$/blog.html" />
-        <option value="$PROJECT_DIR$/scss/articles.scss" />
-        <option value="$PROJECT_DIR$/articles.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/scss/articles.scss" />
+        <option value="$PROJECT_DIR$/blog.html" />
+        <option value="$PROJECT_DIR$/articles.html" />
+        <option value="$PROJECT_DIR$/js/temp_data_fill.js" />
       </list>
     </option>
   </component>
@@ -230,19 +245,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590218017824</updated>
-      <workItem from="1590218020873" duration="28139000" />
+      <workItem from="1590218020873" duration="28405000" />
+      <workItem from="1590321820618" duration="6127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28139000" />
+    <option name="totallyTimeSpent" value="34532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.29324758" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.29710612" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -375,13 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/temp_data_fill.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/articles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -413,38 +422,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/blog.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="459">
           <caret line="27" selection-start-line="27" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="158" column="46" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#0;n#article#4;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/articles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/articles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="98" column="22" lean-forward="true" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
-          <folding>
-            <element signature="e#5498#5504#0" expanded="true" />
-            <element signature="e#6034#6040#0" expanded="true" />
-            <element signature="e#6774#6779#0" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#p#7;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -452,9 +431,54 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="136">
-            <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/news/Ferrero-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/articles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="106" column="429" selection-start-line="106" selection-start-column="429" selection-end-line="106" selection-end-column="429" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#article#4;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="54" column="143" selection-start-line="54" selection-start-column="143" selection-end-line="54" selection-end-column="143" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/temp_data_fill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="260" column="21" selection-start-line="260" selection-start-column="21" selection-end-line="260" selection-end-column="21" />
+          <folding>
+            <element signature="e#597#603#0" expanded="true" />
+            <element signature="e#906#912#0" expanded="true" />
+            <element signature="e#3496#3501#0" expanded="true" />
+            <element signature="e#924#930#0" expanded="true" />
+            <element signature="e#6324#6329#0" expanded="true" />
+            <element signature="e#7187#7193#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

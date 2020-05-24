@@ -1,0 +1,14 @@
+/* line 1, scss/recipe.scss */
+.recipe__page__inner {
+  padding: 0 220px;
+}
+/* line 3, scss/recipe.scss */
+.recipe__page__inner > img {
+  width: 100%;
+}
+
+/* line 7, scss/recipe.scss */
+.recipe__wrapper {
+  text-align: left;
+  font-size: 1.5em;
+}

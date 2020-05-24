@@ -139,3 +139,7 @@ body {
 .note .link:hover {
   text-decoration: underline;
 }
+
+.wanttowork__text{
+  font-size: 1.2em;
+}
